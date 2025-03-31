@@ -55,12 +55,14 @@ To filter employees from the IT department:
 ```sql
 SELECT * FROM Employees WHERE department = 'IT';
 ```
+![View](./output/3.png)
 
 To filter employees with a salary greater than 70,000:
 
 ```sql
 SELECT * FROM Employees WHERE salary > 70000;
 ```
+![View](./output/4.png)
 
 ### 5. Sorting Results
 To sort employees by salary in ascending order:
@@ -68,6 +70,7 @@ To sort employees by salary in ascending order:
 ```sql
 SELECT * FROM Employees ORDER BY salary ASC;
 ```
+![View](./output/5.png)
 
 To sort employees by name in descending order:
 
@@ -75,17 +78,21 @@ To sort employees by name in descending order:
 SELECT * FROM Employees ORDER BY name DESC;
 ```
 
+![View](./output/6.png)
+
 ### 6. Using Multiple Conditions
 To find employees in the IT department earning more than 70,000:
 
 ```sql
 SELECT * FROM Employees WHERE department = 'IT' AND salary > 70000;
 ```
+![View](./output/7.png)
 
 To find employees in either IT or Sales departments:
 
 ```sql
 SELECT * FROM Employees WHERE department = 'IT' OR department = 'Sales';
 ```
+![View](./output/8.png)
 
 
