@@ -1,15 +1,12 @@
-# MySQL: Creating, Populating, Filtering, and Sorting Tables
+# Basic Filtering and Sorting
 
 ## Objective
-This task demonstrates how to create a simple table, insert data, filter records, and sort the result set using SQL queries in MySQL Workbench.
+ Write queries that filter records and sort the result set.
 
 ## Requirements
-- Use `CREATE TABLE` to define a table with appropriate data types and constraints.
-- Populate the table using `INSERT INTO` with multiple rows of sample data.
-- Execute a `SELECT` query to verify the data insertion.
-- Use the `WHERE` clause to filter records based on conditions.
-- Apply the `ORDER BY` clause to sort the results.
-- Experiment with multiple conditions using `AND`/`OR`.
+- Use the WHERE clause to filter records based on a condition (e.g., WHERE Department = 'Sales').
+- Apply the ORDER BY clause to sort the results (e.g., by LastName or Salary).
+- Experiment with multiple conditions using AND/OR.
 
 ## Steps
 
